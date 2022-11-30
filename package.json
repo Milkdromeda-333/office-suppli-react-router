@@ -1,22 +1,26 @@
 {
-  "name": "react-router-testing",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "office-suppli-react-router",
+  "version": "1.0.0",
+  "description": "<hr>\r This is a small experiment I implimented to test my knowledge of using React Router, using Vite to create the project, Bootstrap to quicken the styling process, ui.dev to follow along, and unspalsh random image generating url.",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milkdromeda-333/office-suppli-react-router.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Milkdromeda-333/office-suppli-react-router/issues"
+  },
+  "homepage": "https://github.com/Milkdromeda-333/office-suppli-react-router#readme",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.2"
+    "axios": "^1.2.0",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   },
-  "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.1.0",
-    "vite": "^3.1.0"
-  }
+  "proxy": "http://localhost:9000"
 }

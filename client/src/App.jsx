@@ -19,11 +19,11 @@ function App() {
             OfficeSuppli
           </a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbar">
+          <div className="collapse navbar-collapse" id="navbar">
 
             <div className="navbar-nav d-flex flex-col justify-content-between align-items-center gap-3">
               <Link to="/" className="nav-link text-white">Home</Link >
